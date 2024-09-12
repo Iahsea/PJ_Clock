@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(12, 111, 85),
+    rgb(151, 64, 201),
+    rgb(26, 143, 154)
+  );
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.clock-container {
+  width: 300px;
+  height: 120px;
+  border-radius: 1000px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock {
+  font-size: 48px;
+}
+
+.clock-container:hover {
+  width: 350px;
+  height: 150px;
+  background-color: rgba(255, 228, 196, 0.137);
+}
+
+#clock:hover {
+  font-size: 60px;
+}
